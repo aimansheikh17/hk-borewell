@@ -1,0 +1,168 @@
+.about-section {
+  background-color: #006d77;
+  padding: 80px 20px;
+  color: white;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Image Styling */
+.about-image img {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-left: -200px;
+}
+
+/* Text Styling */
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  margin-top: -60px;
+}
+
+.about-text h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+/* Animation Keyframes */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Initially hidden */
+.about-image,
+.about-text {
+  opacity: 0;
+}
+
+/* Triggered when in viewport */
+.about-image.animate {
+  animation: slideInLeft 1s ease forwards;
+}
+
+.about-text.animate {
+  animation: slideInRight 1s ease forwards;
+}
+
+/* ======================
+   Mobile Responsive CSS
+   ====================== */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .about-image img {
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 0;
+  }
+
+  .about-text {
+    padding: 0 10px;
+  }
+
+  .about-text h1 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-text h2 {
+    font-size: 22px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .about-image img {
+    width: 80%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image img {
+    width: 70%;
+  }
+
+  .about-text h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  .about-image img {
+    width: 65%;
+  }
+
+  .about-text h1 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about-image img {
+    width: 60%;
+  }
+
+  .about-text h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .about-image img {
+    width: 55%;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-image img {
+    width: 50%;
+  }
+}
+

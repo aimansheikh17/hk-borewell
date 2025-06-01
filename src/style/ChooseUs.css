@@ -1,0 +1,228 @@
+.choose-us-section {
+  background-color: #006d77;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.choose-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.choose-subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.choose-us-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  
+}
+
+.choose-card {
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 25px 20px;
+  width: 400px;
+  height: 350px;
+  text-align: center;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.choose-card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.choose-card h4 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.choose-card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Animations */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInTop {
+  from {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-left {
+  animation-name: slideInLeft;
+  animation-delay: 0.2s;
+}
+
+.animate-top {
+  animation-name: slideInTop;
+  animation-delay: 0.4s;
+}
+
+.animate-right {
+  animation-name: slideInRight;
+  animation-delay: 0.6s;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .choose-us-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .choose-card {
+    width: 90%;
+  }
+
+  .choose-title {
+    font-size: 26px;
+  }
+
+  .choose-subtitle {
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .choose-card {
+    width: 95%;
+    height: auto;
+    padding: 20px 15px;
+  }
+
+  .choose-card img {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+
+  .choose-card h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .choose-card p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .choose-title {
+    font-size: 24px;
+  }
+
+  .choose-subtitle {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .choose-card img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .choose-card h4 {
+    font-size: 15px;
+  }
+
+  .choose-card p {
+    font-size: 13px;
+  }
+
+  .choose-title {
+    font-size: 22px;
+  }
+
+  .choose-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .choose-card img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .choose-card h4 {
+    font-size: 14px;
+  }
+
+  .choose-card p {
+    font-size: 12.5px;
+  }
+
+  .choose-title {
+    font-size: 20px;
+  }
+
+  .choose-subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .choose-card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .choose-card h4 {
+    font-size: 13px;
+  }
+
+  .choose-card p {
+    font-size: 12px;
+  }
+
+  .choose-title {
+    font-size: 18px;
+  }
+
+  .choose-subtitle {
+    font-size: 14px;
+  }
+}
+
