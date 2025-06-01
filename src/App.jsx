@@ -6,6 +6,7 @@ import Services from './components/Services'
 import ChooseUs from './components/ChooseUs'
 import ContactForm from './components/Contact'
 import Footer from './components/Footer'
+import Gallery from './components/Gallery'
 
 
 
@@ -18,6 +19,7 @@ export default function App() {
     <About/>
     <Services/>
     <ChooseUs/>
+    <Gallery/>
     <ContactForm/>
     <Footer/>
     </div>
