@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import drillingImg from '../images/drilling.png';
-import reboringImg from '../images/reboring.png';
-import flushingImg from '../images/flushing.png';
+import drillingImg from '../images/borwell.jpeg';
+import reboringImg from '../images/reboring.jpeg';
+import flushingImg from '../images/drilling.jpeg';
 import '../style/Services.css';
 
 const Services = () => {

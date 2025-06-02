@@ -5,11 +5,15 @@ const galleryItems = [
   // Images
   { type: "image", src: "/media/photo1.jpeg", alt: "Drilling Borewell" },
   { type: "image", src: "/media/photo2.jpeg", alt: "Machine Setup" },
+  { type: "image", src: "/media/borewell.jpg", alt: "Machine Setup" },
+  { type: "image", src: "/media/compressor.jpg", alt: "Machine Setup" },
+  { type: "image", src: "/media/truck.jpg", alt: "Machine Setup" },
   
 
   // Videos
   { type: "video", src: "/media/borewellvideo.mp4", alt: "Drilling in Action" },
    { type: "video", src: "/media/video2.mp4", alt: "Drilling in Action" },
+   { type: "video", src: "/media/video3.mp4", alt: "Drilling in Action" },
 ];
 
 const Gallery = () => {

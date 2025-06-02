@@ -29,7 +29,7 @@ const ChooseUs = () => {
           <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Services" />
           <h4>GUARANTEE SERVICES</h4>
           <p>
-            Delivering expert Borewell Drilling, Reboring, and Flushing services across Shiror. We guarantee precision, quality, and dependable water access with every project.
+            Delivering expert Borewell Drilling, Reboring, and Flushing services across everywhere. We guarantee precision, quality, and dependable water access with every project.
           </p>
         </div>
 

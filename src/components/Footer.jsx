@@ -20,8 +20,9 @@ const Footer = () => {
         <div className="footer-section">
           <FaPhoneAlt className="footer-icon" />
           <h4>Contact</h4>
+          <p>+91 8073680518</p>
+          <p>+91 9449283782</p>
           <p>+91 9148726755</p>
-          <p>+91 8277321786</p>
         </div>
 
         {/* Working Hours */}
@@ -47,6 +48,7 @@ const Footer = () => {
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
