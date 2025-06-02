@@ -3,9 +3,9 @@ import "../style/Gallery.css";
 
 const galleryItems = [
   // Images
+   { type: "image", src: "/media/borewell.jpg", alt: "Machine Setup" },
   { type: "image", src: "/media/photo1.jpeg", alt: "Drilling Borewell" },
   { type: "image", src: "/media/photo2.jpeg", alt: "Machine Setup" },
-  { type: "image", src: "/media/borewell.jpg", alt: "Machine Setup" },
   { type: "image", src: "/media/compressor.jpg", alt: "Machine Setup" },
   { type: "image", src: "/media/truck.jpg", alt: "Machine Setup" },
   
